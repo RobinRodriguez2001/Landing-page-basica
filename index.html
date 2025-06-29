@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartPiece - Tecnología Inteligente</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-content">
+            <h1 class="main-title">SmartPiece</h1>
+            
+            <!-- Navegación desktop -->
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li><a href="#Inicio" class="nav-link">Inicio</a></li>
+                    <li><a href="#Productos" class="nav-link">Productos</a></li>
+                    <li><a href="#Nosotros" class="nav-link">Nosotros</a></li>
+                    <li><a href="#Testimonios" class="nav-link">Testimonios</a></li>
+                    <li><a href="#Contacto" class="nav-link">Contacto</a></li>
+                </ul>
+            </nav>
+
+            <!-- Botón hamburguesa para móvil -->
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+        <!-- Overlay para cerrar menú en móvil -->
+        <div class="nav-overlay" id="navOverlay"></div>
+    </header>
+
+    <!-- Sección de Inicio mejorada -->
+    <section id="Inicio" class="hero-section">
+        <div class="hero-container">
+            <!-- Texto a la izquierda -->
+            <div class="hero-text">
+                <h2 class="section-title">¡A Un Click!</h2>
+                <p class="hero-subtitle">Conecta, Crece y Destaca con la mejor tecnología</p>
+                <button class="cta-button">Descubre Más</button>
+            </div>
+
+            <!-- Imagen a la derecha -->
+            <div class="hero-image-container">
+                <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=500&h=400&fit=crop" alt="Tecnología moderna" class="hero-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Productos -->
+    <section id="Productos" class="products-section">
+        <h2 class="section-title">Productos Tecnológicos</h2>
+        <div class="product-grid">
+            <div class="product-item">
+                <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=150&h=150&fit=crop" alt="Laptop Lenovo" class="product-img">
+                <p><strong>Laptop Lenovo ThinkPad X1 Carbon</strong><br>Ultraliviana y potente para profesionales</p>
+            </div>
+
+            <div class="product-item">
+                <img src="https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=150&h=150&fit=crop" alt="Samsung Galaxy S24" class="product-img">
+                <p><strong>Smartphone Samsung Galaxy S24</strong><br>Pantalla AMOLED y cámara de última generación</p>
+            </div>
+
+            <div class="product-item">
+                <img src="https://images.unsplash.com/photo-1583394838336-acd977736f90?w=150&h=150&fit=crop" alt="Audífonos Sony" class="product-img">
+                <p><strong>Audífonos Sony WH-1000XM5</strong><br>Cancelación de ruido premium</p>
+            </div>
+
+            <div class="product-item">
+                <img src="https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=150&h=150&fit=crop" alt="Mouse Logitech" class="product-img">
+                <p><strong>Mouse Logitech MX Master 3</strong><br>Ergonómico y preciso para productividad</p>
+            </div>
+
+            <div class="product-item">
+                <img src="https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=150&h=150&fit=crop" alt="Monitor LG" class="product-img">
+                <p><strong>Monitor LG UltraWide 34"</strong><br>Ideal para multitarea y trabajo creativo</p>
+            </div>
+
+            <div class="product-item">
+                <img src="https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=150&h=150&fit=crop" alt="Teclado Redragon" class="product-img">
+                <p><strong>Teclado Redragon K552</strong><br>Retroiluminado, compacto y para gaming</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Nosotros -->
+    <section id="Nosotros">
+        <h2>Sobre Nosotros</h2>
+        <p>Somos una empresa guatemalteca comprometida con la excelencia, enfocada en ofrecer productos tecnológicos de vanguardia y servicios de calidad superior que transforman la experiencia digital de nuestros clientes.</p>
+    </section>
+
+    <!-- Sección de Testimonios -->
+    <section id="Testimonios" class="testimonials-section">
+        <h2>Testimonios</h2>
+        <div class="testimonial-grid">
+            <div class="testimonial-card">
+                <p class="testimonial-text">Excelente servicio y productos de alta calidad! La atención al cliente es excepcional y los precios muy competitivos.</p>
+                <p class="testimonial-author">- Cliente Satisfecho</p>
+            </div>
+            <div class="testimonial-card">
+                <p class="testimonial-text">Recomiendo esta empresa por su profesionalismo y la rapidez en las entregas. Definitivamente volveré a comprar.</p>
+                <p class="testimonial-author">- Cliente Feliz</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="Contacto">
+        <h2>Contáctanos</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <p>📧 Email: rr2@miempresa.com</p>
+                <p>📞 Teléfono: +502 1234-5678</p>
+            </div>
+             <form action="https://formspree.io/f/xovjgbbq" method="POST">
+                    <div class="form-group">
+                        <label for="email" class="text-dark">Tu correo electrónico:</label>
+                        <input type="email" name="email" class="form-control" id="email" placeholder="Escribe tu correo" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message" class="text-dark">Tu mensaje:</label>
+                        <textarea name="message" class="form-control" id="message" rows="4" placeholder="Escribe tu mensaje" required></textarea>
+                    </div>
+
+                    <!-- Puedes añadir más campos aquí si lo necesitas -->
+
+                    <div class="form-group text-center">
+                        <button type="submit" class="btn btn-dark btn-lg text-white rounded-pill shadow-lg" style="font-size: 18px; padding: 12px 30px;">
+                            Enviar
+                        </button>
+                    </div>
+                </form>
+        </div>
+    </section>
+
+    <!--Pie de pagina-->
+        <footer class="footer text-center" style="background-color: black; color: white;">
+            <div class="container">
+                <div class="row">
+                    
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Contacto</h4> 
+                        <p class="lead mb-0">Guatemala <br> <a href="https://www.google.com.ar/maps/place/Universidad+Mariano+G%C3%A1lvez+Sede+Boca+del+Monte/@14.5511392,-90.5257807,17z/data=!3m1!4b1!4m6!3m5!1s0x8589a41cdae77177:0xb79a684baea1bff7!8m2!3d14.551134!4d-90.5232058!16s%2Fg%2F11cs3_ljcg?hl=es&entry=ttu&g_ep=EgoyMDI1MDIyNi4xIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D" style="color: white;">Mapa</a></p>
+                        <p class="lead mb-0">
+                            Tel: +502 33783317  <br>
+                            Correo: do222@gmail.com
+                        </p>
+                    </div>
+                    
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Nuestras redes</h4>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/share/15VyeBZiWj/?mibextid=wwXIfr" target="_blank"><i class="fab fa-fw fa-facebook-f"></i></a> <!--Iconos de redes sociales-->
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.instagram.com/bits.boom?igsh=MWgxcW91cG9rY3IyaQ%3D%3D&utm_source=qr" target="_blank"><i class="fab fa-fw fa-instagram"></i></a>
+                    </div>
+                    
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Sobre Bits Boom Solution</h4>
+                        <p class="lead mb-0">
+                            Especializados en la creación, diseño y venta de landing pages.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    <script src="JS/script.js"></script>
+</body>
+</html>
